@@ -1,3 +1,22 @@
+Android application. e.g. names, relationships and purposes of all components, including Activities, Services, Content Providers, Broadcast Receivers, etc.
+The components I used in this project are the activities(main_activity, content_main, splash_screen)
+I also have two fragments in the project. They
+were meant to be used with the view model
+in order to fetch the excersizes and what 
+they can do, for example for the biceps it's
+recommended to do bicep curls. 
+
+ I also included a broadcast receiver in which
+it was meant to notify you about events 
+after registering. This one is customized but
+they are more commonly known for 'low battery' notifications
+
+The purpose of this app was to display how data can be passed between the fragments using ViewModel and LiveData. 
+
+A brief description of any design patterns that you leveraged.
+The design pattern that I used is the MVVM pattern. By utilizing MVVM there's a sense
+of organization and more structure being used. 
+
 ![alt_text](https://s2-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/173/100/resized/Onramp_final_logo_for_twitter___instagram.jpg?1548972880 "image_tooltip")
 
 # Onramp Android Take Home Project 
